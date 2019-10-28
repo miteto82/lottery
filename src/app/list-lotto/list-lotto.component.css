@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px 10px;
+  text-align: center;
+
+}
+.row {
+  width: 100%;
+  padding-top: 100px;
+  margin: auto;
+  background: white;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+ 
+  border-width: 1px;
+  border-block-start-color: darkorchid;
+}
+
